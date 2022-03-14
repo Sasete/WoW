@@ -16,6 +16,7 @@ public class Sperm : MonoBehaviour
     public void Start()
     {
         speed = Random.Range(speed - speedRange, speed + speedRange);
+        GetComponent<Animator>().speed = speed;
     }
 
     public void Update()
@@ -53,6 +54,7 @@ public class Sperm : MonoBehaviour
     public void Select()
     {
         speed *= 10;
+        GetComponent<Animator>().speed = speed;
         selected = true;
     }
 

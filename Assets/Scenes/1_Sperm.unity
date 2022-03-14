@@ -443,7 +443,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -525,7 +525,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -607,7 +607,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -630,6 +630,7 @@ GameObject:
   - component: {fileID: 228773828}
   - component: {fileID: 228773827}
   - component: {fileID: 228773826}
+  - component: {fileID: 228773829}
   m_Layer: 0
   m_Name: SpermObject (7)
   m_TagString: Untagged
@@ -650,7 +651,7 @@ Transform:
   m_Children:
   - {fileID: 1192756474}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &228773826
 MonoBehaviour:
@@ -711,6 +712,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &228773829
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228773824}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &239469698
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,7 +802,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -888,6 +908,7 @@ GameObject:
   - component: {fileID: 292783219}
   - component: {fileID: 292783218}
   - component: {fileID: 292783217}
+  - component: {fileID: 292783220}
   m_Layer: 0
   m_Name: SpermObject (14)
   m_TagString: Untagged
@@ -908,7 +929,7 @@ Transform:
   m_Children:
   - {fileID: 2112896549}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &292783217
 MonoBehaviour:
@@ -969,6 +990,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &292783220
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292783215}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &294716836
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1224,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1290,6 +1330,7 @@ GameObject:
   - component: {fileID: 318682916}
   - component: {fileID: 318682915}
   - component: {fileID: 318682914}
+  - component: {fileID: 318682917}
   m_Layer: 0
   m_Name: SpermObject (10)
   m_TagString: Untagged
@@ -1310,7 +1351,7 @@ Transform:
   m_Children:
   - {fileID: 2021925724}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &318682914
 MonoBehaviour:
@@ -1371,6 +1412,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &318682917
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318682912}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &350644076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1502,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1524,7 +1584,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1547,6 +1607,7 @@ GameObject:
   - component: {fileID: 402067845}
   - component: {fileID: 402067844}
   - component: {fileID: 402067843}
+  - component: {fileID: 402067846}
   m_Layer: 0
   m_Name: SpermObject (26)
   m_TagString: Untagged
@@ -1567,7 +1628,7 @@ Transform:
   m_Children:
   - {fileID: 314886357}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &402067843
 MonoBehaviour:
@@ -1628,6 +1689,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &402067846
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402067841}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &453187886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1640,6 +1720,7 @@ GameObject:
   - component: {fileID: 453187890}
   - component: {fileID: 453187889}
   - component: {fileID: 453187888}
+  - component: {fileID: 453187891}
   m_Layer: 0
   m_Name: SpermObject (20)
   m_TagString: Untagged
@@ -1660,7 +1741,7 @@ Transform:
   m_Children:
   - {fileID: 1605824247}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &453187888
 MonoBehaviour:
@@ -1721,6 +1802,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &453187891
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453187886}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &489847557
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,7 +1975,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1957,7 +2057,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1980,6 +2080,7 @@ GameObject:
   - component: {fileID: 560279452}
   - component: {fileID: 560279451}
   - component: {fileID: 560279450}
+  - component: {fileID: 560279453}
   m_Layer: 0
   m_Name: SpermObject (17)
   m_TagString: Untagged
@@ -2000,7 +2101,7 @@ Transform:
   m_Children:
   - {fileID: 1830726286}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &560279450
 MonoBehaviour:
@@ -2061,6 +2162,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &560279453
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560279448}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &560950501
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,7 +2252,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2155,6 +2275,7 @@ GameObject:
   - component: {fileID: 618222209}
   - component: {fileID: 618222208}
   - component: {fileID: 618222207}
+  - component: {fileID: 618222210}
   m_Layer: 0
   m_Name: SpermObject (31)
   m_TagString: Untagged
@@ -2175,7 +2296,7 @@ Transform:
   m_Children:
   - {fileID: 294716837}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &618222207
 MonoBehaviour:
@@ -2236,6 +2357,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &618222210
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618222205}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &676784894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2248,6 +2388,7 @@ GameObject:
   - component: {fileID: 676784898}
   - component: {fileID: 676784897}
   - component: {fileID: 676784896}
+  - component: {fileID: 676784899}
   m_Layer: 0
   m_Name: SpermObject (8)
   m_TagString: Untagged
@@ -2268,7 +2409,7 @@ Transform:
   m_Children:
   - {fileID: 713382284}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &676784896
 MonoBehaviour:
@@ -2329,6 +2470,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &676784899
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676784894}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &694482387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2341,6 +2501,7 @@ GameObject:
   - component: {fileID: 694482391}
   - component: {fileID: 694482390}
   - component: {fileID: 694482389}
+  - component: {fileID: 694482392}
   m_Layer: 0
   m_Name: SpermObject (13)
   m_TagString: Untagged
@@ -2361,7 +2522,7 @@ Transform:
   m_Children:
   - {fileID: 1028872733}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &694482389
 MonoBehaviour:
@@ -2422,6 +2583,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &694482392
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694482387}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &705921473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,6 +2614,7 @@ GameObject:
   - component: {fileID: 705921477}
   - component: {fileID: 705921476}
   - component: {fileID: 705921475}
+  - component: {fileID: 705921478}
   m_Layer: 0
   m_Name: SpermObject (29)
   m_TagString: Untagged
@@ -2454,7 +2635,7 @@ Transform:
   m_Children:
   - {fileID: 489847558}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &705921475
 MonoBehaviour:
@@ -2515,6 +2696,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &705921478
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705921473}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &713382283
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,7 +2869,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2751,7 +2951,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2774,6 +2974,7 @@ GameObject:
   - component: {fileID: 922818989}
   - component: {fileID: 922818988}
   - component: {fileID: 922818987}
+  - component: {fileID: 922818990}
   m_Layer: 0
   m_Name: SpermObject (24)
   m_TagString: Untagged
@@ -2794,7 +2995,7 @@ Transform:
   m_Children:
   - {fileID: 1055585159}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &922818987
 MonoBehaviour:
@@ -2855,6 +3056,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &922818990
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922818985}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &944064671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2926,7 +3146,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3008,7 +3228,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3107,6 +3327,7 @@ GameObject:
   - component: {fileID: 993737707}
   - component: {fileID: 993737706}
   - component: {fileID: 993737705}
+  - component: {fileID: 993737708}
   m_Layer: 0
   m_Name: SpermObject (9)
   m_TagString: Untagged
@@ -3127,7 +3348,7 @@ Transform:
   m_Children:
   - {fileID: 1501452313}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &993737705
 MonoBehaviour:
@@ -3188,6 +3409,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &993737708
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993737703}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1020592187
 GameObject:
   m_ObjectHideFlags: 0
@@ -3267,6 +3507,7 @@ Transform:
   m_LocalPosition: {x: 0, y: -1.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1688119248}
   - {fileID: 2002842531}
   - {fileID: 1178330172}
   - {fileID: 1538256026}
@@ -3539,7 +3780,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3645,6 +3886,7 @@ GameObject:
   - component: {fileID: 1076027001}
   - component: {fileID: 1076027000}
   - component: {fileID: 1076026999}
+  - component: {fileID: 1076027002}
   m_Layer: 0
   m_Name: SpermObject (23)
   m_TagString: Untagged
@@ -3665,7 +3907,7 @@ Transform:
   m_Children:
   - {fileID: 1409799288}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1076026999
 MonoBehaviour:
@@ -3726,6 +3968,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1076027002
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076026997}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1082640665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3944,6 +4205,7 @@ GameObject:
   - component: {fileID: 1178330175}
   - component: {fileID: 1178330174}
   - component: {fileID: 1178330173}
+  - component: {fileID: 1178330176}
   m_Layer: 0
   m_Name: SpermObject (1)
   m_TagString: Untagged
@@ -3964,7 +4226,7 @@ Transform:
   m_Children:
   - {fileID: 1886703585}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1178330173
 MonoBehaviour:
@@ -4025,6 +4287,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1178330176
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178330171}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1192756473
 GameObject:
   m_ObjectHideFlags: 0
@@ -4179,7 +4460,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4261,7 +4542,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4284,6 +4565,7 @@ GameObject:
   - component: {fileID: 1311524518}
   - component: {fileID: 1311524517}
   - component: {fileID: 1311524516}
+  - component: {fileID: 1311524519}
   m_Layer: 0
   m_Name: SpermObject (11)
   m_TagString: Untagged
@@ -4304,7 +4586,7 @@ Transform:
   m_Children:
   - {fileID: 13997608}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1311524516
 MonoBehaviour:
@@ -4365,6 +4647,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1311524519
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311524514}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1361279253
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,7 +4737,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4459,6 +4760,7 @@ GameObject:
   - component: {fileID: 1389363385}
   - component: {fileID: 1389363384}
   - component: {fileID: 1389363383}
+  - component: {fileID: 1389363386}
   m_Layer: 0
   m_Name: SpermObject (5)
   m_TagString: Untagged
@@ -4479,7 +4781,7 @@ Transform:
   m_Children:
   - {fileID: 21385896}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1389363383
 MonoBehaviour:
@@ -4540,6 +4842,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1389363386
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389363381}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1399760314
 GameObject:
   m_ObjectHideFlags: 0
@@ -4718,6 +5039,7 @@ GameObject:
   - component: {fileID: 1424863957}
   - component: {fileID: 1424863956}
   - component: {fileID: 1424863955}
+  - component: {fileID: 1424863958}
   m_Layer: 0
   m_Name: SpermObject (4)
   m_TagString: Untagged
@@ -4738,7 +5060,7 @@ Transform:
   m_Children:
   - {fileID: 1654123587}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1424863955
 MonoBehaviour:
@@ -4799,6 +5121,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1424863958
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424863953}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1443759480
 GameObject:
   m_ObjectHideFlags: 0
@@ -4870,7 +5211,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5035,7 +5376,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5158,6 +5499,7 @@ GameObject:
   - component: {fileID: 1478763293}
   - component: {fileID: 1478763292}
   - component: {fileID: 1478763291}
+  - component: {fileID: 1478763294}
   m_Layer: 0
   m_Name: SpermObject (19)
   m_TagString: Untagged
@@ -5178,7 +5520,7 @@ Transform:
   m_Children:
   - {fileID: 2089350126}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1478763291
 MonoBehaviour:
@@ -5239,6 +5581,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1478763294
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478763289}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1491465440
 GameObject:
   m_ObjectHideFlags: 0
@@ -5417,6 +5778,7 @@ GameObject:
   - component: {fileID: 1502913177}
   - component: {fileID: 1502913176}
   - component: {fileID: 1502913175}
+  - component: {fileID: 1502913178}
   m_Layer: 0
   m_Name: SpermObject (18)
   m_TagString: Untagged
@@ -5437,7 +5799,7 @@ Transform:
   m_Children:
   - {fileID: 103390834}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1502913175
 MonoBehaviour:
@@ -5498,6 +5860,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1502913178
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502913173}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1508305047
 GameObject:
   m_ObjectHideFlags: 0
@@ -5593,6 +5974,7 @@ GameObject:
   - component: {fileID: 1521759080}
   - component: {fileID: 1521759079}
   - component: {fileID: 1521759078}
+  - component: {fileID: 1521759081}
   m_Layer: 0
   m_Name: SpermObject (25)
   m_TagString: Untagged
@@ -5613,7 +5995,7 @@ Transform:
   m_Children:
   - {fileID: 1508305048}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1521759078
 MonoBehaviour:
@@ -5674,6 +6056,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1521759081
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521759076}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1528510476
 GameObject:
   m_ObjectHideFlags: 0
@@ -5828,7 +6229,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5851,6 +6252,7 @@ GameObject:
   - component: {fileID: 1538256029}
   - component: {fileID: 1538256028}
   - component: {fileID: 1538256027}
+  - component: {fileID: 1538256030}
   m_Layer: 0
   m_Name: SpermObject (2)
   m_TagString: Untagged
@@ -5871,7 +6273,7 @@ Transform:
   m_Children:
   - {fileID: 1445378034}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1538256027
 MonoBehaviour:
@@ -5932,6 +6334,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1538256030
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538256025}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1538712242
 GameObject:
   m_ObjectHideFlags: 0
@@ -6003,7 +6424,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6085,7 +6506,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6108,6 +6529,7 @@ GameObject:
   - component: {fileID: 1561991036}
   - component: {fileID: 1561991035}
   - component: {fileID: 1561991034}
+  - component: {fileID: 1561991037}
   m_Layer: 0
   m_Name: SpermObject (12)
   m_TagString: Untagged
@@ -6128,7 +6550,7 @@ Transform:
   m_Children:
   - {fileID: 1528510477}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1561991034
 MonoBehaviour:
@@ -6189,6 +6611,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1561991037
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561991032}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1605824246
 GameObject:
   m_ObjectHideFlags: 0
@@ -6343,7 +6784,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6425,7 +6866,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6590,7 +7031,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6613,6 +7054,7 @@ GameObject:
   - component: {fileID: 1667846282}
   - component: {fileID: 1667846281}
   - component: {fileID: 1667846280}
+  - component: {fileID: 1667846283}
   m_Layer: 0
   m_Name: SpermObject (3)
   m_TagString: Untagged
@@ -6633,7 +7075,7 @@ Transform:
   m_Children:
   - {fileID: 2121387984}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1667846280
 MonoBehaviour:
@@ -6694,6 +7136,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1667846283
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667846278}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1668714720
 GameObject:
   m_ObjectHideFlags: 0
@@ -6765,7 +7226,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6930,12 +7391,94 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1688119247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1688119248}
+  - component: {fileID: 1688119249}
+  m_Layer: 0
+  m_Name: Bubles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1688119248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688119247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6648, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1020592189}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1688119249
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688119247}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -9136834448258697486, guid: 1b121a71b1b0648e690b0f3216b465d2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 2
+  m_Size: {x: 82.048096, y: 4.681168}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -7036,6 +7579,7 @@ GameObject:
   - component: {fileID: 1744629459}
   - component: {fileID: 1744629458}
   - component: {fileID: 1744629457}
+  - component: {fileID: 1744629460}
   m_Layer: 0
   m_Name: SpermObject (22)
   m_TagString: Untagged
@@ -7056,7 +7600,7 @@ Transform:
   m_Children:
   - {fileID: 2070403390}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1744629457
 MonoBehaviour:
@@ -7117,6 +7661,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1744629460
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744629455}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1750290877
 GameObject:
   m_ObjectHideFlags: 0
@@ -7129,6 +7692,7 @@ GameObject:
   - component: {fileID: 1750290881}
   - component: {fileID: 1750290880}
   - component: {fileID: 1750290879}
+  - component: {fileID: 1750290882}
   m_Layer: 0
   m_Name: SpermObject (16)
   m_TagString: Untagged
@@ -7149,7 +7713,7 @@ Transform:
   m_Children:
   - {fileID: 1684936351}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1750290879
 MonoBehaviour:
@@ -7210,6 +7774,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1750290882
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750290877}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1752997154
 GameObject:
   m_ObjectHideFlags: 0
@@ -7305,6 +7888,7 @@ GameObject:
   - component: {fileID: 1795142404}
   - component: {fileID: 1795142403}
   - component: {fileID: 1795142402}
+  - component: {fileID: 1795142405}
   m_Layer: 0
   m_Name: SpermObject (27)
   m_TagString: Untagged
@@ -7325,7 +7909,7 @@ Transform:
   m_Children:
   - {fileID: 1696061690}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1795142402
 MonoBehaviour:
@@ -7386,6 +7970,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1795142405
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795142400}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1830726285
 GameObject:
   m_ObjectHideFlags: 0
@@ -7540,7 +8143,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7622,7 +8225,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7728,6 +8331,7 @@ GameObject:
   - component: {fileID: 1896106106}
   - component: {fileID: 1896106105}
   - component: {fileID: 1896106104}
+  - component: {fileID: 1896106107}
   m_Layer: 0
   m_Name: SpermObject (30)
   m_TagString: Untagged
@@ -7748,7 +8352,7 @@ Transform:
   m_Children:
   - {fileID: 1156367252}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1896106104
 MonoBehaviour:
@@ -7809,6 +8413,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1896106107
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896106102}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1899978242
 GameObject:
   m_ObjectHideFlags: 0
@@ -7821,6 +8444,7 @@ GameObject:
   - component: {fileID: 1899978246}
   - component: {fileID: 1899978245}
   - component: {fileID: 1899978244}
+  - component: {fileID: 1899978247}
   m_Layer: 0
   m_Name: SpermObject (21)
   m_TagString: Untagged
@@ -7841,7 +8465,7 @@ Transform:
   m_Children:
   - {fileID: 1752997155}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1899978244
 MonoBehaviour:
@@ -7902,6 +8526,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1899978247
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899978242}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1972845936
 GameObject:
   m_ObjectHideFlags: 0
@@ -7914,6 +8557,7 @@ GameObject:
   - component: {fileID: 1972845940}
   - component: {fileID: 1972845939}
   - component: {fileID: 1972845938}
+  - component: {fileID: 1972845941}
   m_Layer: 0
   m_Name: SpermObject (15)
   m_TagString: Untagged
@@ -7934,7 +8578,7 @@ Transform:
   m_Children:
   - {fileID: 270848806}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1972845938
 MonoBehaviour:
@@ -7995,6 +8639,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &1972845941
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972845936}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1981656019
 GameObject:
   m_ObjectHideFlags: 0
@@ -8066,7 +8729,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8089,6 +8752,7 @@ GameObject:
   - component: {fileID: 2002842534}
   - component: {fileID: 2002842532}
   - component: {fileID: 2002842533}
+  - component: {fileID: 2002842535}
   m_Layer: 0
   m_Name: SpermObject
   m_TagString: Untagged
@@ -8109,7 +8773,7 @@ Transform:
   m_Children:
   - {fileID: 1491465441}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2002842532
 MonoBehaviour:
@@ -8170,6 +8834,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &2002842535
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002842530}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2021925723
 GameObject:
   m_ObjectHideFlags: 0
@@ -8399,6 +9082,7 @@ GameObject:
   - component: {fileID: 2025453363}
   - component: {fileID: 2025453362}
   - component: {fileID: 2025453361}
+  - component: {fileID: 2025453364}
   m_Layer: 0
   m_Name: SpermObject (28)
   m_TagString: Untagged
@@ -8419,7 +9103,7 @@ Transform:
   m_Children:
   - {fileID: 1399760315}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2025453361
 MonoBehaviour:
@@ -8480,6 +9164,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &2025453364
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025453359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2070403389
 GameObject:
   m_ObjectHideFlags: 0
@@ -8800,7 +9503,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 3d62eb4e765d20c4480aee30eb790131, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a97c6c9eec4c6e46a607295fe71160e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8823,6 +9526,7 @@ GameObject:
   - component: {fileID: 2105329950}
   - component: {fileID: 2105329949}
   - component: {fileID: 2105329948}
+  - component: {fileID: 2105329951}
   m_Layer: 0
   m_Name: SpermObject (6)
   m_TagString: Untagged
@@ -8843,7 +9547,7 @@ Transform:
   m_Children:
   - {fileID: 1031320069}
   m_Father: {fileID: 1020592189}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2105329948
 MonoBehaviour:
@@ -8904,6 +9608,25 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.31
+--- !u!95 &2105329951
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105329946}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 196774d26107b624b874121967d98452, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2112896548
 GameObject:
   m_ObjectHideFlags: 0
