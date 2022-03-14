@@ -40,7 +40,8 @@ public class LevelManager : MonoBehaviour
 
     public void NextLevel()
     {
-        Player.instance.NextLevel();
+
+        Player.player.NextLevel();
     }
 
 }
