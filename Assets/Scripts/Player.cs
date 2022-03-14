@@ -26,6 +26,8 @@ public class Player : MonoBehaviour
 
         instance = this;
 
+        DontDestroyOnLoad(gameObject);
+
     }
 
     public void NextLevel()
