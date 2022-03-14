@@ -7,6 +7,7 @@ public class LevelManager : MonoBehaviour
 
     public static LevelManager level;
 
+    public float endTime = 0;
     public float time = 0;
 
     public void Start()
