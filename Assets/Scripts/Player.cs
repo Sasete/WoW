@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
 
-    public static Player instance;
+    public static Player player;
 
 
     [Range(0,100)]
@@ -18,13 +18,15 @@ public class Player : MonoBehaviour
     public void Start()
     {
 
-        if (instance != null)
+        if (player != null)
         {
             Destroy(gameObject);
             return;
         }
 
-        instance = this;
+        player = this;
+
+        DontDestroyOnLoad(gameObject);
 
     }
 
