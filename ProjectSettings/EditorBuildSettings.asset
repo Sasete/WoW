@@ -6,6 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/0_MainMenu.unity
+    guid: ef75d0782e7989e488db78e6b42f31a0
+  - enabled: 1
+    path: Assets/Scenes/1_Sperm.unity
+    guid: 0fe2387fc2a17704d9ba90f60d120565
+  - enabled: 1
+    path: Assets/Scenes/2_Birth.unity
+    guid: 6b013c581ce2c664e93559c5eded7298
+  - enabled: 1
+    path: Assets/Scenes/3_Baby.unity
+    guid: 101235da7d810cb4a8eb903871ccb85e
+  - enabled: 1
+    path: Assets/Scenes/4_Child.unity
+    guid: 09f860b7332f9144092ca2d3462593f5
+  - enabled: 1
+    path: Assets/Scenes/5_Teen.unity
+    guid: 5287e8d7f7eb942428d7901d00ddcf8e
+  - enabled: 1
+    path: Assets/Scenes/6_Final.unity
+    guid: 3815783990f4992458791710fe8f1ecc
+  - enabled: 1
+    path: Assets/Scenes/7_GameOver.unity
+    guid: 9a63a2279c0db6e4f8f54c22ad1be9f8
   m_configObjects: {}
