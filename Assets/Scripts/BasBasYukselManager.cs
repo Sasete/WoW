@@ -26,8 +26,8 @@ public class BasBasYukselManager : MonoBehaviour
 
         int current = FindObjectOfType<clickcounter>().amount;
 
-        if(current >= slider.maxValue)
-            Debug.Log("Bitti");
+        if (current >= slider.maxValue)
+            LevelManager.level.NextLevel();
 
     }
 
