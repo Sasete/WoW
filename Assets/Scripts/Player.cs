@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameSystem : MonoBehaviour
+public class Player : MonoBehaviour
 {
 
 
-    public static GameSystem instance;
+    public static Player instance;
 
 
     [Range(0,100)]
     public int socialPressure;
 
-    public int currentScene = 0;
+    public int currentLevel = 0;
 
     public void Start()
     {
@@ -28,14 +28,14 @@ public class GameSystem : MonoBehaviour
 
     }
 
-    public void NextScene()
+    public void NextLevel()
     {
-        currentScene++;
+        currentLevel++;
 
-        if (currentScene > 7)
-            currentScene = 0;
+        if (currentLevel > 7)
+            currentLevel = 0;
 
-        SceneManager.LoadScene(currentScene);
+        SceneManager.LoadScene(currentLevel);
 
     }
     
