@@ -546,8 +546,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1024209498}
-        m_TargetAssemblyTypeName: SceneSystem, Assembly-CSharp
-        m_MethodName: NextScene
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: NextLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
