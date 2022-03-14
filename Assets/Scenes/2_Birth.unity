@@ -977,6 +977,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
+      propertyPath: endTime
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1767898472789040522, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
       propertyPath: m_Name
       value: LevelManager
