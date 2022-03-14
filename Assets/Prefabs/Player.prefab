@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c9945efd3184574aa3f6dd4dff632be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  socialPressure: 0
-  currentScene: 0
+  socialPressure: 17
+  currentLevel: 0
