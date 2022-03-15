@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class LevelManager : MonoBehaviour
 {
@@ -9,6 +11,10 @@ public class LevelManager : MonoBehaviour
 
     public float endTime = 0;
     public float time = 0;
+
+    public TextMeshProUGUI textField;
+
+    private bool stop = false;
 
     public void Start()
     {
@@ -26,7 +32,26 @@ public class LevelManager : MonoBehaviour
     public void Update()
     {
 
+        if (stop)
+            return;
+
         time += Time.deltaTime;
+
+        if(endTime > 0)
+        {
+
+            float remainingTime = endTime - time;
+
+            if (textField != null)
+                textField.text = Format(remainingTime);
+
+
+            if (remainingTime <= 0)
+                stop = true;
+
+        }
+
+
 
     }
 
@@ -43,6 +68,18 @@ public class LevelManager : MonoBehaviour
     {
 
         Player.player.NextLevel();
+    }
+
+
+    public string Format(float time)
+    {
+
+        int minute = Mathf.FloorToInt(time / 60);
+        int second = Mathf.RoundToInt(time % 60);
+
+        string retVal = minute + ":" + second.ToString("D2");
+
+        return retVal;
     }
 
 }

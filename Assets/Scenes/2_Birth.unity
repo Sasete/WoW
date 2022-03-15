@@ -1099,8 +1099,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
       propertyPath: endTime
-      value: 15
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
+      propertyPath: textField
+      value: 
+      objectReference: {fileID: 794490986}
     - target: {fileID: 1767898472789040522, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
       propertyPath: m_Name
       value: LevelManager
