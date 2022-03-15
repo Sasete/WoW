@@ -56,6 +56,14 @@ public class Player : MonoBehaviour
 
     }
 
+    public void Update()
+    {
+
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByBuildIndex(0))
+            Destroy(gameObject);
+
+    }
+
     public void NextLevel()
     {
         currentLevel++;
@@ -67,6 +75,16 @@ public class Player : MonoBehaviour
         paused = true;
         UpdateText();
 
+    }
+
+    public void NextLevelDirect()
+    {
+        currentLevel++;
+
+        if (currentLevel > 6)
+            currentLevel = 0;
+
+        SceneManager.LoadScene(currentLevel);
     }
 
     public void Succeed()
@@ -94,8 +112,8 @@ public class Player : MonoBehaviour
         SceneManager.LoadScene(currentLevel);
 
 
-        if (currentLevel == 0)
-            currentLevel++;
+        //if (currentLevel == 0)
+        //    currentLevel++;
 
     }
     

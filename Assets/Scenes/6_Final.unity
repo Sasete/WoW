@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 527565331}
   - component: {fileID: 527565330}
   - component: {fileID: 527565332}
+  - component: {fileID: 527565333}
   m_Layer: 5
   m_Name: TitleBar
   m_TagString: Untagged
@@ -244,10 +245,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2126692843}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: NextLevel
-        m_Mode: 1
+      - m_Target: {fileID: 527565333}
+        m_TargetAssemblyTypeName: LocalSceneManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -256,6 +257,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &527565333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527565328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14dc8228a5000484189e89a4d6e0dd0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &541132304
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,6 +828,14 @@ PrefabInstance:
       propertyPath: currentLevel
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[6].failure
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[6].success
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3797073989395295770, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -930,14 +951,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
---- !u!114 &2126692843 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
-  m_PrefabInstance: {fileID: 2126692842}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88b60f9848dc834e94aac52d85f51be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

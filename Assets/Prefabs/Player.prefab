@@ -921,8 +921,8 @@ MonoBehaviour:
       even the future. \n"
   - success: 'There are some times. You have to listen your logic not your heart... '
     failure: 'There are some times. You have to listen your logic not your heart... '
-  - success: Succeess
-    failure: Failure!
+  - success: You have completed the survey!
+    failure: You have completed the survey!
   pressureSlider: {fileID: 2970615732765579811}
   freedomSlider: {fileID: 5442572744013273620}
   nextLevelObject: {fileID: 6837273306217274375}
