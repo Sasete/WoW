@@ -24,7 +24,7 @@ public class clickcounter : MonoBehaviour
         if (Player.player.paused)
             return;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.Space))
             Clicked();
 
     }
