@@ -8,6 +8,9 @@ public class BasBasYukselManager : MonoBehaviour
     
     public Slider slider;
 
+    private float time = 0;
+    public float speed = 1;
+
     public void UpdateSlider()
     {
 
@@ -18,6 +21,32 @@ public class BasBasYukselManager : MonoBehaviour
             current = (int)slider.maxValue;
 
         slider.value = current;
+
+    }
+
+    public void Update()
+    {
+
+        time += Time.deltaTime * speed;
+
+        if(time > 1)
+        {
+
+            int current = FindObjectOfType<clickcounter>().amount;
+
+            if (current <= 0)
+                return;
+
+
+            int passedTime = Mathf.FloorToInt(time);
+            current -= passedTime;
+            time -= passedTime;
+
+            FindObjectOfType<clickcounter>().amount = current;
+
+            slider.value = current;
+
+        }
 
     }
 
