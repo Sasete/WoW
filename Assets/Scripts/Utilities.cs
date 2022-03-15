@@ -8,6 +8,9 @@ public class Utilities : MonoBehaviour
 {
     public static IEnumerator Type(string text, TextMeshProUGUI textField)
     {
+
+        textField.text = "";
+
         foreach(char letter in text.ToCharArray())
         {
              

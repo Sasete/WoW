@@ -1290,6 +1290,60 @@ PrefabInstance:
       propertyPath: socialPressure
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[0].failure
+      value: Failure!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[0].success
+      value: Succeess
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[1].failure
+      value: Failure!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[1].success
+      value: Succeess
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[2].failure
+      value: Finally... Day has come. It seems like going to be nerveous one.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[2].success
+      value: Finally... Day has come. It seems like going to be nerveous one.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[3].failure
+      value: Just as there is a first for everything in life, a first was happening
+        that day.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[3].success
+      value: Just as there is a first for everything in life, a first was happening
+        that day.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[4].failure
+      value: "Life is all about choices. Choices affect the present, and sometimes
+        even the future. \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[4].success
+      value: 'Life is all about choices. Choices affect the present, and sometimes
+        even the future.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[5].failure
+      value: 'There are some times. You have to listen your logic not your heart... '
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: chapterEndTexts.Array.data[5].success
+      value: 'There are some times. You have to listen your logic not your heart... '
+      objectReference: {fileID: 0}
     - target: {fileID: 3797073989395295770, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
       propertyPath: m_RootOrder
       value: 1

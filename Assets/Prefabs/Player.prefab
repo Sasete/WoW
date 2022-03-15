@@ -905,14 +905,20 @@ MonoBehaviour:
   chapterEndTexts:
   - success: Succeess
     failure: Failure!
-  - success: Succeess
-    failure: Failure!
-  - success: Succeess
-    failure: Failure!
-  - success: Succeess
-    failure: Failure!
-  - success: Succeess
-    failure: Failure!
+  - success: Finally... Day has come. It seems like going to be nerveous one.
+    failure: Finally... Day has come. It seems like going to be nerveous one.
+  - success: Just as there is a first for everything in life, a first was happening
+      that day.
+    failure: Just as there is a first for everything in life, a first was happening
+      that day.
+  - success: 'Life is all about choices. Choices affect the present, and sometimes
+      even the future.
+
+'
+    failure: "Life is all about choices. Choices affect the present, and sometimes
+      even the future. \n"
+  - success: 'There are some times. You have to listen your logic not your heart... '
+    failure: 'There are some times. You have to listen your logic not your heart... '
   - success: Succeess
     failure: Failure!
   - success: Succeess

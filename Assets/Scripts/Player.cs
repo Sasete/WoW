@@ -114,6 +114,7 @@ public class Player : MonoBehaviour
 
         textField.text = "";
 
+        StopAllCoroutines();
         StartCoroutine(Utilities.Type(text, textField));
 
     }

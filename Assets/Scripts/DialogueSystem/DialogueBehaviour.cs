@@ -18,8 +18,6 @@ public class DialogueBehaviour : MonoBehaviour
 
     public Image image;
 
-    private Coroutine textWriter;
-
     public void Start()
     {
 
@@ -33,7 +31,9 @@ public class DialogueBehaviour : MonoBehaviour
 
         textField.text = "";
         image.sprite = dialogue.profile;
-        textWriter = StartCoroutine(Utilities.Type(dialogue.text, textField));
+
+        StopAllCoroutines();
+        StartCoroutine(Utilities.Type(dialogue.text, textField));
         
     }
 

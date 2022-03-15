@@ -904,7 +904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
       propertyPath: endTime
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
       propertyPath: textField
