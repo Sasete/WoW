@@ -29,13 +29,13 @@ public class Toy : MonoBehaviour
 
     public void RightAnswer()
     {
-        Debug.Log("Right Answer");
+        LevelManager.level.Succeed();
         LevelManager.level.NextLevel();
     }
 
     public void WrongAnswer()
     {
-        Debug.Log("Wrong Answer");
+        LevelManager.level.Failed();
         LevelManager.level.NextLevel();
     }
 
