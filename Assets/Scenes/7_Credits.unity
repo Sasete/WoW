@@ -180,11 +180,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "By the Team BBY\n\nDevelopers:\nLead Developer - Tufan Tu\u011Fra \u0130skender\nJunior
-    Developer - Nihat Basetemur\nJunior Developer - \xD6yk\xFC Y\u0131ld\u0131r\u0131m\n\nArtists:\nJunior
-    2D Artist - Berk Muharrem Karahan\nJunior 2D Artist - \u0130rem \xC7etinta\u015F\nJunior
-    2D Artist - Sinan Kurban\nJunior Sound Artist - Ya\u011F\u0131z Uyda\u015F\n\nThanks
-    for playing!\n"
+  m_text: "By the Team BBY\n\nDevelopers:\nLead Developer - Tufan Tugra iskender\nJunior
+    Developer - Nihat Basetemur\nJunior Developer - Oyku Yildirim\n\nArtists:\nJunior
+    2d Artist - Berk Muharrem Karahan\nJunior 2d Artist - irem cetintas\nJunior 2d
+    Artist - Sinan Kurban\nJunior Sound Artist - Yag\u0131z Uydas\n\nThanks for playing!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4cba734542b366c42b1fd988a54f77cd, type: 2}
   m_sharedMaterial: {fileID: -1401293139836756616, guid: 4cba734542b366c42b1fd988a54f77cd, type: 2}

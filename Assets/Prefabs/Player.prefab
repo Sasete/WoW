@@ -908,8 +908,8 @@ MonoBehaviour:
     failure: Failure!
   - success: Succeess
     failure: Failure!
-  - success: Finally... Day has come. It seems like going to be nerveous one.
-    failure: Finally... Day has come. It seems like going to be nerveous one.
+  - success: Finally... Day has come. it seems like going to be nerveous one.
+    failure: Finally... Day has come. it seems like going to be nerveous one.
   - success: Just as there is a first for everything in life, a first was happening
       that day.
     failure: Just as there is a first for everything in life, a first was happening
@@ -947,7 +947,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: af7b56e7d19e8624493ee931083996fb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: edd32d461f760154db0d09891d8e35b1, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
