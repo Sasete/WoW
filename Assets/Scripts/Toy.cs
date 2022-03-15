@@ -17,6 +17,10 @@ public class Toy : MonoBehaviour
 
     public void OnMouseDown()
     {
+
+        if (Player.player.paused)
+            return;
+
         InvokeAnswer();
     }
 

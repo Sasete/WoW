@@ -15,6 +15,7 @@ public class DialogueBehaviour : MonoBehaviour
 
 
     public TextMeshProUGUI textField;
+    public TextMeshProUGUI talkerField;
 
     public Image image;
 
@@ -31,6 +32,7 @@ public class DialogueBehaviour : MonoBehaviour
 
         textField.text = "";
         image.sprite = dialogue.profile;
+        talkerField.text = dialogue.talker;
 
         StopAllCoroutines();
         StartCoroutine(Utilities.Type(dialogue.text, textField));

@@ -7,11 +7,11 @@ using TMPro;
 public class Final_diyalog : MonoBehaviour
 {
  
-    [TextField]
+    [TextArea]
     public string highFreedom;
-    [TextField]
+    [TextArea]
     public string highPressure;
-    [TextField]
+    [TextArea]
     public string equal;
     public TextMeshProUGUI TextField;
 
@@ -22,22 +22,16 @@ public class Final_diyalog : MonoBehaviour
         float pressure = Player.player.socialPressure;
         float freedom = Player.player.freedom;
 
-        if(highFreedom > 50)
+        if (freedom > 50)
             TextField.text = highFreedom;
-        else if(highPressure > 50)
-            TextField.text = highPressure
+        else if (pressure > 50)
+            TextField.text = highPressure;
         else
-            TextField.text = equal
+            TextField.text = equal;
         
         
             
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     
