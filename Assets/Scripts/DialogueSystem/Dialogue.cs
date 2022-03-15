@@ -9,6 +9,8 @@ public class Dialogue : ScriptableObject
 
     public string talker;
 
+    public Sprite profile;
+
     [TextArea]
     public string text;
 

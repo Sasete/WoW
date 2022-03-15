@@ -32,6 +32,12 @@ public class SoundScriptKeyManager : MonoBehaviour
                 DeActivateKey();
                 invoked = false;
 
+                if(point >= 3)
+                {
+                    LevelManager.level.Succeed();
+                    LevelManager.level.NextLevel();
+                }
+
             }
 
 
@@ -69,8 +75,20 @@ public class SoundScriptKeyManager : MonoBehaviour
 
     public void DeActivateKey()
     {
-        keyObject.SetActive(false);
+        keyObject.GetComponentInChildren<SpriteRenderer>().color = Color.yellow;
+
+        StartCoroutine(DeActivateAfter());
+
     }
 
+    public IEnumerator DeActivateAfter()
+    {
+
+        yield return new WaitForSeconds(.2f);
+
+        keyObject.SetActive(false);
+        keyObject.GetComponentInChildren<SpriteRenderer>().color = Color.white;
+
+    }
 
 }

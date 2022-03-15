@@ -588,7 +588,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - {fileID: 11400000, guid: bbe396aea10c13b449d6186288165f3b, type: 2}
+  - {fileID: 11400000, guid: 7a9eb89d94ce88547bf85478ad0d5595, type: 2}
+  - {fileID: 11400000, guid: b4d9d237ceb9894468b3960a56812748, type: 2}
+  - {fileID: 11400000, guid: 52eb25fd9d55fca489f9448fd50b2f61, type: 2}
+  - {fileID: 11400000, guid: a46e26df6daa95840967b18c9d1e1b3a, type: 2}
+  - {fileID: 11400000, guid: 23a2b84da30ea0545a4d52887fb3c155, type: 2}
   order: 0
   textField: {fileID: 1250660315}
 --- !u!1 &718866072

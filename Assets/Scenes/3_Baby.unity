@@ -443,7 +443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &416952496
 RectTransform:
   m_ObjectHideFlags: 0
@@ -553,6 +553,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
+      propertyPath: endTime
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
+      propertyPath: textField
+      value: 
+      objectReference: {fileID: 373347057}
     - target: {fileID: 1767898472789040522, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
       propertyPath: m_Name
       value: LevelManager
@@ -713,7 +721,11 @@ MonoBehaviour:
   times:
   - 1
   - 5
+  - 8
   - 12
+  - 18
+  - 24
+  - 28
   duration: 0.5
   order: 0
   invoked: 0
