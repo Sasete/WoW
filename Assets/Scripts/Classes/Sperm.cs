@@ -42,6 +42,8 @@ public class Sperm : MonoBehaviour
     public void OnClick()
     {
 
+        if (Player.player.paused)
+            return;
 
         Select();
 
