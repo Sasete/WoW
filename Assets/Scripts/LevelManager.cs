@@ -32,6 +32,9 @@ public class LevelManager : MonoBehaviour
     public void Update()
     {
 
+        if (Player.player.paused)
+            return;
+
         if (stop)
             return;
 

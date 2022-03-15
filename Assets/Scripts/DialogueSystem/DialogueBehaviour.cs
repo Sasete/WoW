@@ -16,6 +16,8 @@ public class DialogueBehaviour : MonoBehaviour
 
     public TextMeshProUGUI textField;
 
+    public Image image;
+
     private Coroutine textWriter;
 
     public void Start()
@@ -29,6 +31,8 @@ public class DialogueBehaviour : MonoBehaviour
     public void UpdateUI()
     {
 
+        textField.text = "";
+        image.sprite = dialogue.profile;
         textWriter = StartCoroutine(Utilities.Type(dialogue.text, textField));
         
     }
@@ -52,7 +56,7 @@ public class DialogueBehaviour : MonoBehaviour
     public void NextDialogue()
     {
 
-        if (dialogues.Length <= order)
+        if (dialogue != dialogues[dialogues.Length - 1])
         {
             order += 1;
             UpdateUI();

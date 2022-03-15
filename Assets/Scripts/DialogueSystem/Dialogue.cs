@@ -25,4 +25,16 @@ public class Dialogue : ScriptableObject
         onReject = new UnityEvent();
     }
 
+    public void Pressure(int amount)
+    {
+        Player.player.socialPressure += amount;
+        Player.player.UpdateUI();
+    }
+
+    public void Freedom(int amount)
+    {
+        Player.player.freedom += amount;
+        Player.player.UpdateUI();
+    }
+
 }
