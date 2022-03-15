@@ -15,20 +15,27 @@ public class Toy : MonoBehaviour
             onClick = new UnityEvent();
     }
 
+    public void OnMouseDown()
+    {
+        InvokeAnswer();
+    }
+
     public void InvokeAnswer()
     {
 
-        InvokeAnswer();
+        onClick.Invoke();
 
     }
 
     public void RightAnswer()
     {
+        Debug.Log("Right Answer");
         LevelManager.level.NextLevel();
     }
 
     public void WrongAnswer()
     {
+        Debug.Log("Wrong Answer");
         LevelManager.level.NextLevel();
     }
 

@@ -9,6 +9,7 @@ public class Dialogue : ScriptableObject
 
     public string talker;
 
+    [TextArea]
     public string text;
 
 
