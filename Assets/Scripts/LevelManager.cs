@@ -47,7 +47,11 @@ public class LevelManager : MonoBehaviour
 
 
             if (remainingTime <= 0)
+            {
+                Debug.Log("Failed!");
                 stop = true;
+                NextLevel();
+            }
 
         }
 
