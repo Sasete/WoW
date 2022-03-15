@@ -35,7 +35,7 @@ public class SoundScriptKeyManager : MonoBehaviour
                 point++;
                 DeActivateKey();
                 invoked = false;
-                textField.text = point.ToString("D2");
+                textField.text = point.ToString();
 
                 if(point >= 3)
                 {
