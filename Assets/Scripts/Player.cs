@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
     {
         currentLevel++;
 
-        if (currentLevel > 7)
+        if (currentLevel > 6)
             currentLevel = 0;
 
         nextLevelObject.SetActive(true);
