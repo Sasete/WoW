@@ -26,6 +26,8 @@ public class BasBasYukselManager : MonoBehaviour
 
     public void Update()
     {
+        if (Player.player.paused)
+            return;
 
         time += Time.deltaTime * speed;
 
@@ -56,7 +58,10 @@ public class BasBasYukselManager : MonoBehaviour
         int current = FindObjectOfType<clickcounter>().amount;
 
         if (current >= slider.maxValue)
+        {
+            LevelManager.level.Succeed();
             LevelManager.level.NextLevel();
+        }
 
     }
 

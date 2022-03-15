@@ -478,17 +478,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924695316}
   m_CullTransparentMesh: 1
---- !u!114 &1024209498 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1767898472789040521, guid: 50051258eacb1ec41ad288f64520a125, type: 3}
-  m_PrefabInstance: {fileID: 1767898473107550163}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88b60f9848dc834e94aac52d85f51be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1072818962
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,9 +960,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1024209498}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: NextLevel
+      - m_Target: {fileID: 3797073989155489251}
+        m_TargetAssemblyTypeName: Player, Assembly-CSharp
+        m_MethodName: PassLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1294,6 +1283,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: currentLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
       propertyPath: socialPressure
       value: 0
       objectReference: {fileID: 0}
@@ -1341,5 +1334,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5158763231261294102, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038556148368251676, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6038556148368251676, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+--- !u!114 &3797073989155489251 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3797073989395295765, guid: 8d0e4326168ebe244acf114ef98d00d2, type: 3}
+  m_PrefabInstance: {fileID: 3797073989155489250}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c9945efd3184574aa3f6dd4dff632be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -42,13 +42,13 @@ public class LevelManager : MonoBehaviour
 
             float remainingTime = endTime - time;
 
-            if (textField != null)
+            if (textField != null && remainingTime >= 0)
                 textField.text = Format(remainingTime);
 
 
             if (remainingTime <= 0)
             {
-                Debug.Log("Failed!");
+                Failed();
                 stop = true;
                 NextLevel();
             }
@@ -72,6 +72,16 @@ public class LevelManager : MonoBehaviour
     {
 
         Player.player.NextLevel();
+    }
+
+    public void Succeed()
+    {
+        Player.player.Succeed();
+    }
+
+    public void Failed()
+    {
+        Player.player.Failed();
     }
 
 

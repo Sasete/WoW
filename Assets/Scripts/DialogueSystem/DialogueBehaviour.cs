@@ -59,7 +59,7 @@ public class DialogueBehaviour : MonoBehaviour
         }
         else
         {
-            Debug.Log("Dialogues end");
+            LevelManager.level.Succeed();
             LevelManager.level.NextLevel();
         }
 

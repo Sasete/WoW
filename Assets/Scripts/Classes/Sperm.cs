@@ -28,6 +28,7 @@ public class Sperm : MonoBehaviour
             if (selected)
             {
 
+                LevelManager.level.Succeed();
                 LevelManager.level.NextLevel();
                 Destroy(gameObject);
 
