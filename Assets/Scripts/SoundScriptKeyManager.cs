@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class SoundScriptKeyManager : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class SoundScriptKeyManager : MonoBehaviour
 
     public GameObject keyObject;
 
+    public TextMeshProUGUI textField;
+
     public void Update()
     {
 
@@ -31,6 +35,7 @@ public class SoundScriptKeyManager : MonoBehaviour
                 point++;
                 DeActivateKey();
                 invoked = false;
+                textField.text = point.ToString("D2");
 
                 if(point >= 3)
                 {
@@ -47,6 +52,7 @@ public class SoundScriptKeyManager : MonoBehaviour
                 point--;
                 DeActivateKey();
                 invoked = false;
+                textField.text = point.ToString();
 
             }
 
