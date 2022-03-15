@@ -21,7 +21,11 @@ public class Interactable : MonoBehaviour
     public void OnMouseEnter()
     {
         if(highlightObject != null)
+        {
+            if(GetComponent<AudioSource>() != null)
+                GetComponent<AudioSource>().Play();
             highlightObject.SetActive(true);
+        }
     }
 
     public void OnMouseOver()

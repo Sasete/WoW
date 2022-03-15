@@ -35,7 +35,7 @@ public class DialogueBehaviour : MonoBehaviour
         talkerField.text = dialogue.talker;
 
         StopAllCoroutines();
-        StartCoroutine(Utilities.Type(dialogue.text, textField));
+        StartCoroutine(Utilities.Type(dialogue.text, textField, GetComponent<AudioSource>()));
         
     }
 
